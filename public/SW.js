@@ -3,9 +3,8 @@ const cacheName = 'cache-box';
 const staticAssets = [
     './',
     './index.html',
-    './css/style.css',
-    './icon/app-icon.png',
-    './js/app.js'
+    './src/css/app.css',
+    './src/js/app.js'
 ]
 
 self.addEventListener('install', event => {
