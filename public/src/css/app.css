@@ -1,0 +1,74 @@
+body, html {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #521751;
+  margin-bottom: 36px;
+}
+
+.main-header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: white;
+}
+
+.main-header h3 {
+  font-size: 1.25em;
+  margin: 0;
+  color: #fa923f;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(209, 160, 250);
+}
+.article{
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+}
+header{
+  widows: 100%;
+  display: block;
+  background-color: rgb(21, 209, 106);
+  text-align: center;
+  color: #fff;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  
+}
+.article a{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.article p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+.article img{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+@media (max-width: 950px){
+  .article{
+      width: 100%;
+  }
+}
+#btn:visited{
+  box-shadow: none
+}
+div#mybtn{
+   margin-top: 20px; 
+}
